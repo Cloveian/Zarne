@@ -1,3 +1,4 @@
+name: zarne
 build:
   settings:
     board_root: .
