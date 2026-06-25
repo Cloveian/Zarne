@@ -1,0 +1,12 @@
+# West workspace artifacts (this config repo is the manifest; `west update`
+# clones these into the repo root). None of them belong in git.
+/.west/
+/.venv/
+/build/
+/firmware/
+
+# West-managed projects (see config/west.yml)
+/zmk/
+/zephyr/
+/zmk-nice-oled/
+/modules/

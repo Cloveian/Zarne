@@ -1,0 +1,9 @@
+# Python packages for building Zarne locally (install into a venv).
+# west drives the build; the protobuf/grpcio-tools pins matter: ZMK Studio's
+# nanopb codegen breaks with newer protobuf (>=4), so keep these exact versions.
+west==1.5.0
+protobuf==3.20.3
+grpcio-tools==1.48.2
+
+# Plus Zephyr's own Python deps:
+#   pip install -r zephyr/scripts/requirements.txt
