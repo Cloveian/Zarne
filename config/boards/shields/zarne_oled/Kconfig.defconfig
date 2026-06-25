@@ -1,0 +1,17 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_ZARNE_OLED
+
+if ZMK_DISPLAY
+
+# Drive an SSD1306 OLED over I2C (overrides the nice!view SPI display).
+config I2C
+    default y
+
+config SSD1306
+    default y
+
+endif # ZMK_DISPLAY
+
+endif # SHIELD_ZARNE_OLED
