@@ -19,7 +19,8 @@
 
 / {
     chosen {
-        zephyr,display = &nice_view;
+        // The display device is selected by the display adapter shield
+        // (nice_view via nice_view_adapter + nice_view, or oled via zarne_oled).
         zmk,kscan = &kscan0;
         zmk,physical-layout = &foostan_corne_6col_layout;
     };

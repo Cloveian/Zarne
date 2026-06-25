@@ -1,0 +1,7 @@
+file_format: "1"
+id: zarne_oled
+name: Zarne SSD1306 OLED adapter
+type: shield
+url: https://zmk.dev/docs/features/displays
+requires: [nice_view_header]
+exposes: [i2c_oled]
