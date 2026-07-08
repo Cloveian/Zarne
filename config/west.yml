@@ -13,7 +13,8 @@ manifest:
       remote: zmkfirmware
       import: app/west.yml
     - name: zmk-nice-oled
-      remote: mctechnology17
-      revision: main
+      url: file:///home/cloveian/projects/zmk-nice-oled
+#      revision: boikisser
+      revision: combined
   self:
     path: config

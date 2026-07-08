@@ -35,8 +35,8 @@ FIRMWARE_DIR="$PWD/firmware"
 declare -A SHIELDS=(
   [oled_left]="zarne_left zarne_oled nice_oled"
   [oled_right]="zarne_right zarne_oled nice_oled"
-  [nice_view_left]="zarne_left nice_view_adapter nice_view"
-  [nice_view_right]="zarne_right nice_view_adapter nice_view"
+  [nice_view_left]="zarne_left nice_view_adapter nice_epaper"
+  [nice_view_right]="zarne_right nice_view_adapter nice_epaper"
   [settings_reset]="settings_reset"
 )
 
